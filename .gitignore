@@ -92,6 +92,10 @@ com_crashlytics_export_strings.xml
 .externalToolBuilders/
 *.launch
 
+## VScode
+.history/
+.vscode/
+
 ## NetBeans
 
 /nbproject/private/
