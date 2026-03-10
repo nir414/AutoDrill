@@ -37,6 +37,10 @@ import static arc.Core.bundle;
 import static mindustry.Vars.state;
 import static mindustry.Vars.ui;
 
+/**
+ * AutoDrill 모드의 메인 클래스
+ * 모드 초기화, UI 버튼 관리, 설정 및 튜토리얼 표시
+ */
 public class AutoDrill extends Mod {
     private static final int buttonSize = 30;
 

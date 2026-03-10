@@ -2,6 +2,10 @@ package autodrill.filler;
 
 import arc.math.geom.Point2;
 
+/**
+ * 4방향(상하좌우)을 정의하는 열거형
+ * 드릴의 출력 방향 및 좌표 계산에 사용됨
+ */
 public enum Direction {
     RIGHT(new Point2(1, 0), 0),
     UP(new Point2(0, 1), 1),

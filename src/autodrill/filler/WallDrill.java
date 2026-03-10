@@ -17,6 +17,10 @@ import java.util.Comparator;
 
 import static arc.Core.bundle;
 
+/**
+ * 벽 자원을 드릴로 캐는 클래스 (Erekir 행성용)
+ * 벽 자원에 연결된 드릴을 자동으로 배치
+ */
 public class WallDrill {
     public static void fill(Tile tile, BeamDrill drill, Direction direction) {
         Seq<Tile> tiles = getConnectedWallTiles(tile, direction);

@@ -15,6 +15,10 @@ import java.util.InputMismatchException;
 
 import static arc.Core.bundle;
 
+/**
+ * 브릿지 레이아웃으로 드릴을 배치하는 클래스
+ * 기계식 드릴과 공압식 드릴에서 컨베이어 방향을 지정하여 배치
+ */
 public class BridgeDrill {
     public static void fill(Tile tile, Drill drill, Direction direction) {
         if (drill.size != 2) throw new InputMismatchException("Drill must have a size of 2");

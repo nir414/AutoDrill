@@ -17,6 +17,11 @@ import mindustry.world.blocks.production.Drill;
 
 import static arc.Core.bundle;
 
+/**
+ * 최적화 알고리즘으로 드릴을 배치하는 클래스
+ * 레이저 드릴과 에어블라스트 드릴에서 채굴량을 최대화하도록 배치
+ * 필요시 물 추출기와 전력 노드도 함께 배치
+ */
 public class OptimizationDrill {
     public static void fill(Tile tile, Drill drill) {
         fill(tile, drill, true);

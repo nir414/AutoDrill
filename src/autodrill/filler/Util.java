@@ -19,6 +19,10 @@ import mindustry.world.blocks.production.Drill;
 import static arc.Core.bundle;
 import static mindustry.Vars.world;
 
+/**
+ * 드릴 배치에 필요한 유틸리티 함수들을 제공
+ * 연결된 타일 찾기, 광석 계산, 지역 확장 등
+ */
 public class Util {
     protected static Seq<Tile> getNearbyTiles(int x, int y, Block block) {
         return getNearbyTiles(x, y, block.size);
